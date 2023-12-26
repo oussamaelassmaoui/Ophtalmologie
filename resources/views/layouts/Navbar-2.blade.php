@@ -286,25 +286,44 @@
                     <li class="nav-item">
                         <a class="nav-link collapsed" data-bs-target="#Profile-nav" data-bs-toggle="collapse"
                             href="#">
-                            <span>{{ auth()->user()->name }}</span><i class="bi bi-chevron-down ms-auto"></i>
+                            <span>
+                                My Profile
+                            </span><i class="bi bi-chevron-down ms-auto"></i>
                         </a>
                         <ul id="Profile-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                            
+                            @guest
                             <li>
-                                <a href="{{ route('profile.edit') }}">
-                                    <i class="bi bi-person"></i>
-                                    <span>My Profile</span>
+                                <a href="{{ route('login') }}">
+                                      Se connecter
                                 </a>
                             </li>
                             <li>
-                                <a href="#"
-                                    onclick="event.preventDefault();document.getElementById('logout-form').submit();">
-                                    <i class="bi bi-box-arrow-right"></i> Logout
-                                    <form action="{{ route('logout') }}" id="logout-form" method="post">
-                                        @csrf
+                                <a href="{{ route('register') }}">
+                                     S'inscrire
+                                </a>
+                            </li>
+                        @else
+                            
+                                
+                            
+                                    <li><a href="{{ route('profile.edit') }}">
+                                        
+                                       My Profile</a></li>
 
-                                    </form>
-                                </a>
-                            </li>
+                                    <li> <a  href="#"
+                                            onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                                              logout</a>
+                                        <form action="{{ route('logout') }}" id="logout-form" method="post">
+                                            @csrf
+
+                                        </form>
+                                    </li>
+                                
+
+
+
+                            @endguest
 
                         </ul>
                     </li>
