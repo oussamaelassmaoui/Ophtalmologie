@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{{ config('name', 'Ophtalmologie') }}</title>
-    <link href="{{ asset('assets/img/logo.png') }}" rel="icon">
-    <link href="{{ asset('assets/img/logo.png') }}" rel="apple-touch-icon">
+    <link href="assets/img/Logo.png" rel="icon">
+    <link href="assets/img/Logo.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -20,19 +20,19 @@
     <script src="https://kit.fontawesome.com/04746b7ca9.js" crossorigin="anonymous"></script>
 
     <!-- Vendor CSS Files -->
-    <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/vendor/aos/aos.css" rel="stylesheet') }}">
-    <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <!-- Template Main CSS File -->
-    <link href="{{ asset('assets/css/variables.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/style-FAQ.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/style-Guide.css') }}" rel="stylesheet">
+    <link href="assets/css/variables.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="assets/css/style-FAQ.css" rel="stylesheet">
+    <link href="assets/css/style-Guide.css" rel="stylesheet">
     {{-- <link href="{{ asset('assets/css/style-avis.css') }}" rel="stylesheet"> --}}
-    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
-    <link href="{{ asset('assets/css/style-nav.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="assets/css/style-nav.css" rel="stylesheet">
 
 
 </head>
@@ -115,7 +115,7 @@
                         <li>
                             <div class="container">
                                 <a class="navbar-brand" href="/" style="color: black">
-                                    <img src="{{ asset('assets/img/logo.png') }}" alt="Ophtalmologie" width="40"
+                                    <img src="assets/img/Logo.png" alt="Ophtalmologie" width="40"
                                         height="40">
                                     Ophtalmologie
                                 </a>
@@ -160,7 +160,7 @@
         <div class="mobile-menu">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img src="{{ asset('assets/img/logo.png') }}" alt="Ophtalmologie" width="40"
+                    <img src="assets/img/Logo.png" alt="Ophtalmologie" width="40"
                         height="40">
                     Ophtalmologie
 
@@ -168,7 +168,7 @@
 
             </div>
 
-            <img src="{{ asset('assets/img/menu-burger.svg') }}" alt="menu-burger" class="toggle-sidebar-btn">
+            <img src="assets/img/menu-burger.svg" alt="menu-burger" class="toggle-sidebar-btn">
 
             <div class="menu-espas"></div>
 
@@ -342,7 +342,7 @@
             <div class="footer-1">
 
                 <a class="navbar-brand" href="/" style="color: rgb(255, 255, 255)">
-                    <img src="{{ asset('assets/img/logo.png') }}" alt="Ophtalmologie" width="40"
+                    <img src="assets/img/Logo.png" alt="Ophtalmologie" width="40"
                         height="40">
                     Ophtalmologie
                 </a>
@@ -407,12 +407,12 @@
         </div>
     </footer>
     <!-- Vendor JS Files -->
-    <script src="{{ asset('assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
-    <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
-    <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <!-- Template Main JS File -->
-    <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script src="assets/js/main.js"></script>
     {{-- whatsapp  --}}
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
     <div class="elfsight-app-87de5326-af64-4477-928a-1c7c8e1bcd58" data-elfsight-app-lazy></div>
