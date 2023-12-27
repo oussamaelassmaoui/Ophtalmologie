@@ -179,7 +179,7 @@
         <div class="mobile-menu">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img src="{{ asset('assets/img/logo.png') }}" alt="Ophtalmologie" width="40"
+                    <img src="assets/img/Logo.png" alt="Ophtalmologie" width="40"
                         height="40">
                     Ophtalmologie
 
@@ -187,7 +187,7 @@
 
             </div>
 
-            <img src="{{ asset('assets/img/menu-burger.svg') }}" alt="menu-burger" class="toggle-sidebar-btn">
+            <img src="assets/img/menu-burger.svg" alt="menu-burger" class="toggle-sidebar-btn">
 
             <div class="menu-espas"></div>
 
