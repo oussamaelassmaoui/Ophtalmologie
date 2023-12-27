@@ -1,4 +1,4 @@
-<link href="css/style.css" rel="stylesheet">
+<link href="{{ asset('css/style.css') }}" rel="stylesheet">
 <nav x-data="{ open: false }" class="bg-white border-b border-gray-100">
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -8,7 +8,7 @@
                 <div class="shrink-0 flex items-center">
                     <div class="container">
                         <a class="navbar-brand row" href="/" style="color: black">
-                          <span class="col">  <img src="assets/img/Logo.png" alt="Ophtalmologie" width="40"
+                          <span class="col">  <img src="{{ asset('assets/img/logo.png') }}" alt="Ophtalmologie" width="40"
                                 height="40"></span>
                           <span class="col"> Ophtalmologie </span> 
                         </a>
