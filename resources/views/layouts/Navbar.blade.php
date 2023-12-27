@@ -25,20 +25,20 @@
     <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
     <!-- Template Main CSS File -->
-    <link href="{{ asset('assets/css/variables.css') }}" rel="stylesheet">
+    <link href="assets/css/variables.css" rel="stylesheet">
 
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/style-FAQ.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/style-blog.css') }}" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="assets/css/style-FAQ.css" rel="stylesheet">
+    <link href="assets/css/style-blog.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+    <link rel="stylesheet" href="css/main.css">
     <!-- bootstrap -->
-    <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <!-- owl carousel -->
-    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.css') }}">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
     <!-- responsive -->
-    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
-    <link href="{{ asset('assets/css/style-nav.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href="assets/css/style-nav.css" rel="stylesheet">
 </head>
 
 <body class="antialiased">
