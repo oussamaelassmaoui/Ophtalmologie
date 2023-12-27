@@ -47,7 +47,7 @@
   <link rel="stylesheet" href="assets/css/owl.carousel.css">
   <!-- responsive -->
   <link rel="stylesheet" href="assets/css/responsive.css">
-  <!-- Template Main CSS File -->
+  <!-- Template Main CSS File --->
   <link href="assets/css/style.css" rel="stylesheet">
 
 

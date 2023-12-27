@@ -12,8 +12,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo.png" rel="icon">
-  <link href="assets/img/logo.png" rel="apple-touch-icon">
+  <link href="assets/img/Logo.png" rel="icon">
+  <link href="assets/img/Logo.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -28,23 +28,23 @@
 <script src="https://kit.fontawesome.com/04746b7ca9.js" crossorigin="anonymous"></script>
 
   <!-- Vendor CSS Files -->
-  <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/quill/quill.snow.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/quill/quill.bubble.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/simple-datatables/style.css') }}" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
  
-  <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+  <link rel="stylesheet" href="css/main.css">
   <!-- bootstrap -->
-  <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <!-- owl carousel -->
-  <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.css') }}">
+  <link rel="stylesheet" href="assets/css/owl.carousel.css">
   <!-- responsive -->
-  <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+  <link rel="stylesheet" href="assets/css/responsive.css">
   <!-- Template Main CSS File -->
-  <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
 
 
 </head>
@@ -60,7 +60,7 @@
 
               <div class="d-flex justify-content-center py-4">
                 <a href="/" class="logo d-flex align-items-center w-auto">
-                  <img src="{{ asset('assets/img/logo.png') }}" alt="">
+                  <img src="assets/img/Logo.png" alt="">
                   <span class="d-none d-lg-block">Ophtalmologie</span>
                 </a>
               </div><!-- End Logo -->
@@ -135,17 +135,17 @@
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 <!-- Vendor JS Files -->
-<script src="{{ asset('assets/vendor/apexcharts/apexcharts.min.js') }}"></script>
-<script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-<script src="{{ asset('assets/vendor/chart.js/chart.umd.js') }}"></script>
-<script src="{{ asset('assets/vendor/echarts/echarts.min.js') }}"></script>
-<script src="{{ asset('assets/vendor/quill/quill.min.js') }}"></script>
-<script src="{{ asset('assets/vendor/simple-datatables/simple-datatables.js') }}"></script>
-<script src="{{ asset('assets/vendor/tinymce/tinymce.min.js') }}"></script>
+<script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/chart.js/chart.umd.js"></script>
+<script src="assets/vendor/echarts/echarts.min.js"></script>
+<script src="assets/vendor/quill/quill.min.js"></script>
+<script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+<script src="assets/vendor/tinymce/tinymce.min.js"></script>
 
 
 <!-- Template Main JS File -->
-<script src="{{ asset('assets/js/main.js') }}"></script>
+<script src="assets/js/main.js"></script>
 
 </body>
 
