@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ config('name', 'Ophtalmologie') }}</title>
-    <link href="assets/img/logo.png" rel="icon">
-    <link href="assets/img/logo.png" rel="apple-touch-icon">
+    <link href="assets/img/Logo.png" rel="icon">
+    <link href="assets/img/Logo.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -124,7 +124,7 @@
                             <li>
                                 <div class="container">
                                     <a class="navbar-brand" href="/" style="color: black">
-                                        <img src="assets/img/logo.png" alt="Ophtalmologie"
+                                        <img src="assets/img/Logo.png" alt=""
                                             width="40" height="40">
                                         Ophtalmologie
                                     </a>
@@ -361,7 +361,7 @@
             <div class="footer-1">
 
                 <a class="navbar-brand" href="/">
-                    <img src="assets/img/logo.png" alt="Ophtalmologie" width="40"
+                    <img src="assets/img/Logo.png" alt="" width="40"
                         height="40">
                     Ophtalmologie
                 </a>
